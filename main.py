@@ -1,3 +1,16 @@
+###############          ##########        #######   #######        #########      #######       #
+#              #        #          #             #         #       #         #           #
+#               #       #          #            #         #        #         #          #        #
+#              #        #          #           #         #         #         #         #         #
+###############         ############          #         #          ###########        #          #
+#              #        #          #         #         #           #         #       #           #
+#               #       #          #        #         #            #         #      #            #
+#              #        #          #       #         #             #         #     #             #
+###############         #          #      #######    #######       #         #    #######        #
+
+# Developer: Mohammad Ali Bazzazi (me)
+
+########################### START ###########################
 import api as C
 import Responses as R
 from telegram.ext import *
@@ -23,3 +36,4 @@ def handle_response(update, context):
     update.message.reply_text(R.Responses(str(text)))
 
 main()
+########################### END ###########################
